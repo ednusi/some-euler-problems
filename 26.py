@@ -17,5 +17,12 @@ def fin_exp(number):
 	else:
 		return False
 
-for num in xrange(1,10):
-	print num, fin_exp(num)
+	
+def exp_length():
+
+	for num in xrange(1,11):
+		
+		if(fin_exp(num) is False):
+			print num, "Good"	
+
+exp_length()
